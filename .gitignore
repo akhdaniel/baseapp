@@ -1,19 +1,11 @@
-# misc
-.DS_Store
-
-# sonic
+/nbproject/
+/.idea/*
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+node_modules/
 bin/
-.vscode
-
-# baseapp
-web/.DS_Store
-web/node_modules
-web/build
-web/npm-debug.log*
-web/yarn-debug.log*
-web/yarn-error.log*
-web/.env.local
-web/.env.development.local
-web/.env.test.local
-web/.env.production.local
-web/.env
+obj/
+.vs/
