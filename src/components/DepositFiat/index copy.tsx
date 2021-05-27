@@ -63,13 +63,7 @@ const DepositFiat: React.FunctionComponent<DepositFiatProps> = (props: DepositFi
             <p className="cr-deposit-fiat__title">{title}</p>
             <p className="cr-deposit-fiat__description">{description}</p>
             <div className="cr-deposit-fiat-credentials">{bankData(uid).map(renderDetails)}</div>
-
-            <div className="cr-deposit-fiat">
-                <a class="btn btn-primary btn-lg" href="http://xendit.com" target="_blank">Pay Online</a> 
-            </div>
         </div>
-
-
     );
 };
 
