@@ -82,11 +82,11 @@ const TradingWrapper = props => {
             },
             {
                 i: 2,
-                render: () => <OrderBook size={orderBookComponentResized} />,
+                render: () => <Charts />,
             },
             {
                 i: 3,
-                render: () => <Charts />,
+                render: () => <OrderBook size={orderBookComponentResized} />,
             },
             {
                 i: 4,
@@ -114,7 +114,7 @@ const TradingWrapper = props => {
             breakpoints={breakpoints}
             cols={cols}
             draggableHandle=".cr-table-header__content, .pg-trading-screen__tab-panel, .draggable-container"
-            rowHeight={30}
+            rowHeight={40}
             layouts={layouts}
             onLayoutChange={() => {return;}}
             margin={[5, 5]}
